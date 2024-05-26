@@ -182,6 +182,7 @@ function setupContentSecurityPolicy() {
       'https://*.googleapis.com', // For Google Cloud Storage fetches.
       'blob:',
       'data:',
+      '*',
     ].concat(rpcPolicy),
     'img-src': [
       `'self'`,
